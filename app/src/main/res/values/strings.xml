@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">To Do List</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">To Do List</string>
+    <string name="nav_header_subtitle">Menu</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string-array name="sort_tasks">
+        <item>Created (oldest first)</item>
+        <item>Created (newest first)</item>
+        <item>Due Date (newest first)</item>
+        <item>Due Date (oldest first)</item>
+    </string-array>
+
+    <string-array name="edit_list">
+        <item>Edit List Name</item>
+        <item>Delete List</item>
+    </string-array>
+
+    <string-array name="sort_list">
+        <item>Alphaetical (A-Z)</item>
+        <item>Alphabetical (Z-A)</item>
+        <item>Created (oldest first)</item>
+        <item>Created (newest first)</item>
+    </string-array>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_add_new_list">Add New List</string>
+    <!-- Strings used for fragments for navigation -->
+
+</resources>

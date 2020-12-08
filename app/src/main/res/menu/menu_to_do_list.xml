@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_sort"
+        android:orderInCategory="101"
+        android:title="Sort"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_remove_completed"
+        android:orderInCategory="102"
+        android:title="Remove Completed"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_unchecked"
+        android:orderInCategory="103"
+        android:title="Unchecked Completed"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_completed_all"
+        android:orderInCategory="104"
+        android:title="Completed All"
+        app:showAsAction="never" />
+
+</menu>

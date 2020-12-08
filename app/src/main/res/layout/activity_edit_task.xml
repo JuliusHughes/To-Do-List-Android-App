@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditTask">
+
+    <EditText
+        android:id="@+id/edit_task_name_3"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter task name" />
+
+    <EditText
+        android:id="@+id/edit_notes_2"
+        android:layout_width="312dp"
+        android:layout_height="92dp"
+        android:layout_below="@id/edit_task_name_3"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Enter notes" />
+
+    <TextView
+        android:id="@+id/txt_due_date_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_notes_2"
+        android:layout_marginTop="74dp"
+        android:ems="10"
+        android:text="Due Date" />
+
+    <Button
+        android:id="@+id/btn_due_date_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_notes_2"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="56dp"
+        android:layout_toEndOf="@id/txt_due_date_2"
+        android:layout_toRightOf="@id/txt_due_date_2"
+        android:text="Select due date"/>
+
+    <CheckBox
+        android:id="@+id/checkBox_complete_2"
+        android:layout_width="227dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/txt_due_date_2"
+        android:layout_marginTop="60dp"
+        android:text="Completed" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="right"
+        android:orientation="horizontal">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/ic_add_task" />
+    </LinearLayout>
+
+</RelativeLayout>

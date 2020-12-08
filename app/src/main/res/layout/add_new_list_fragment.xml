@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.addNewList.AddNewListFragment">
+
+    <EditText
+        android:id="@+id/edit_add_new_list"
+        android:layout_width="270dp"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter List Name" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_add_new_list"
+        android:layout_marginTop="52dp"
+        android:text="Save" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_add_new_list"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/button_save"
+        android:text="Cancel" />
+
+</RelativeLayout>
